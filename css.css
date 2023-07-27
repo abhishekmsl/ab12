@@ -356,8 +356,9 @@ background: none;
 
 
 #footer{
-    bottom: 0;
-    width: 200%;
+    bottom: 0px;
+    width: 0px;
+    height: 0px;
     height: 90px;
     background:#0082e6;
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
@@ -366,6 +367,9 @@ background: none;
 
 
 box{
+    bottom: 0;
+width: 0px;
+height: 0px;
 color: #0082e6;
 box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
 }
